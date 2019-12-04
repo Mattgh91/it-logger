@@ -18,7 +18,6 @@ const App = () => {
             <i className="material-icons">
               accessibility
             </i>
-            Disab-led
             <i className="material-icons">
               accessibility
             </i>
