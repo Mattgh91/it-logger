@@ -1,18 +1,11 @@
 {
   "logs": [
     {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "message": "gegegege",
+      "id": 9,
+      "message": "Always with you, wherever you may be!:)",
       "attention": false,
       "tech": "Sam Smith",
-      "date": "2020-08-22T15:05:37.319Z",
-      "id": 6
+      "date": "2020-08-26T11:24:07.283Z"
     }
   ],
   "techs": [

@@ -8,8 +8,6 @@ const Logs = ({
     log: {
         logs,
         loading,
-        current,
-        error,
     },
     getLogs,
 }) => {
