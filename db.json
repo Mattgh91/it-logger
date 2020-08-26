@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "id": 9,
-      "message": "Always with you, wherever you may be!:)",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-08-26T11:24:07.283Z"
-    },
-    {
       "id": 11,
       "message": "yes",
       "attention": true,

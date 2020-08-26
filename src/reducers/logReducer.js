@@ -40,7 +40,7 @@ export default (state = initialState, action) => {
         case DELETE_LOG: {
             return {
                 ...state,
-                log: state.logs.filter(log => log.id !== action.payload),
+                logs: state.logs.filter(log => log.id !== action.payload),
                 loading: false,
             };
         }
