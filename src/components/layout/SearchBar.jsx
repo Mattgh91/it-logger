@@ -1,13 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useRef } from 'react';
+import { connect } from 'react-redux';
+import { searchLogs } from '../../actions/logActions';
 
-const SearchBar = props => {
+const SearchBar = ({ searchLogs }) => {
+    const searchRef = useRef(null);
+    const search = () => searchLogs(searchRef.current.value);
+
     return (
         <nav style={{ marginBottom: 30 }}>
             <div className="nav-wrapper">
                 <form>
                     <div className="input-field">
-                        <input id="search" type="search" required />
+                        <input id="search" type="search" required ref={searchRef} onChange={search} />
                             <label className="label-icon" htmlFor="search">
                                 <i className="material-icons">search</i>
                             </label>
@@ -19,8 +23,4 @@ const SearchBar = props => {
     );
 };
 
-SearchBar.propTypes = {
-
-};
-
-export default SearchBar;
+export default connect(null, { searchLogs })(SearchBar);
